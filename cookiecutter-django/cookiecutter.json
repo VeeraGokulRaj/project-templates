@@ -1,0 +1,14 @@
+{
+  "project_name": "My Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "app_name": "app",
+  "description": "A production-ready Django project structure powered by uv",
+  "author_name": "Veera",
+  "email": "veera@example.com",
+  "python_version": "3.12",
+  "database": ["postgresql", "sqlite"],
+  "use_docker": ["y", "n"],
+  "use_sentry": ["y", "n"],
+  "use_precommit": ["y", "n"],
+  "venv_name": ".venv"
+}

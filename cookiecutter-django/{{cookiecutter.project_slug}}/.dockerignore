@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+{{ cookiecutter.venv_name }}
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.ruff_cache
+htmlcov
+.coverage
+*.log
+db.sqlite3
+.env
